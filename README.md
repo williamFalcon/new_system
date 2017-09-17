@@ -10,3 +10,9 @@ bash install.sh
 ```bash    
 git config --global core.editor "vim"    
 ```    
+
+3. install dropbox   
+```bash
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+~/.dropbox-dist/dropboxd
+```
