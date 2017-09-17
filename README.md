@@ -15,4 +15,9 @@ git config --global core.editor "vim"
 ```bash
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
-```
+```   
+4. download python script to control dropbox   
+```bash   
+wget "https://www.dropbox.com/download?dl=packages/dropbox.py" -O ~/Developer/utils/dropbox.py
+```   
+
