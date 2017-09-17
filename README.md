@@ -18,6 +18,9 @@ cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ```   
 4. download python script to control dropbox   
 ```bash   
-wget "https://www.dropbox.com/download?dl=packages/dropbox.py" -O ~/Developer/utils/dropbox.py
+wget -O ~/bin/dropbox.py "https://www.dropbox.com/download?dl=packages/dropbox.py"
+chmod +x ~/bin/dropbox.py
+~/bin/dropbox.py help
+
 ```   
 
