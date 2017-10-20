@@ -1,22 +1,28 @@
 # System setup
-1. Install vim settings    
+1. Setup and use oh-my-zsh
+```bash    
+bash zsh_install.sh
+```    
+
+2. Install vim settings    
 ```bash.sh
 git clone https://github.com/williamFalcon/vim.git
 cd vim
 bash install.sh 
 ```
     
-2. Let git use vim as default    
+3. Let git use vim as default    
 ```bash    
 git config --global core.editor "vim"    
 ```    
 
-3. install dropbox   
+
+4. install dropbox   
 ```bash
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
 ```   
-4. download python script to control dropbox   
+5. download python script to control dropbox   
 ```bash   
 wget -O ~/bin/dropbox.py "https://www.dropbox.com/download?dl=packages/dropbox.py"
 chmod +x ~/bin/dropbox.py
