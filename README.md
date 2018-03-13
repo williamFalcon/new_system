@@ -30,3 +30,8 @@ chmod +x ~/bin/dropbox.py
 
 ```   
 
+5. make /media public forever   
+```bash
+sudo chmod 777 directory
+```
+
