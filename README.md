@@ -34,8 +34,19 @@ chmod +x ~/bin/dropbox.py
 
 ```   
 
-5. make /media public forever   
+6. make /media public forever   
 ```bash
 sudo chmod 777 /media
+```   
+
+7. Enable ssh    
+```bash    
+sudo apt-get install openssh-server    
+sudo service ssh status
+```   
+8. Change ssh port   
+```bash    
+sudo vim /etc/ssh/sshd_config   
+# change Port to whatever you want   
 ```
 
