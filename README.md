@@ -22,7 +22,8 @@ git config --global core.editor "vim"
 4. install dropbox   
 ```bash
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-~/.dropbox-dist/dropboxd
+~/.dropbox-dist/dropboxd   
+# now click on that connect computer link
 ```   
 5. download python script to control dropbox   
 ```bash   
