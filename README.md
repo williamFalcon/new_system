@@ -9,7 +9,9 @@ bash zsh_install.sh
 git clone https://github.com/williamFalcon/vim.git
 cd vim
 bash install.sh 
-```
+```   
+Open vim and type   
+```:PluginInstall```
     
 3. Let git use vim as default    
 ```bash    
