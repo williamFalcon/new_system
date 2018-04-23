@@ -48,5 +48,19 @@ sudo service ssh status
 ```bash    
 sudo vim /etc/ssh/sshd_config   
 # change Port to whatever you want   
+```    
+
+9. Copy ssh keys to enable no password ssh   
+```bash   
+ssh-copy-id -i ~/.ssh/id_rsa.pub will@68.174.68.101 -p 9450
+```    
+
+10. Disable ssh and enable pem file login only    
+```bash    
+sudo vim /etc/ssh/sshd_config   
+
+# change these lines
+PasswordAuthentication no
+ChallengeResponseAuthentication no
 ```
 
