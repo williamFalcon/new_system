@@ -90,3 +90,8 @@ if [[ "${terminfo[kcud1]}" != "" ]]; then
 	bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 fi
 ```
+
+13. Symlink test tube to dropbox   
+```bash   
+ln -s /path/to/tt/on/machine/* ~/Dropbox/new/folder    
+```
