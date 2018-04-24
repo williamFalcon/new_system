@@ -68,5 +68,6 @@ ChallengeResponseAuthentication no
 ```bash    
 echo 'alias dropbox="~/bin/dropbox.py"' >> ~/.zshrc
 echo '# added by Miniconda3 installer' >> ~/.zshrc
-echo 'export PATH="/home/will/miniconda3/bin:$PATH"'  >> ~/.zshrc
+echo 'export PATH="/home/will/miniconda3/bin:$PATH"'  >> ~/.zshrc    
+source ~/.zshrc
 ```
