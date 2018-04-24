@@ -50,7 +50,7 @@ sudo vim /etc/ssh/sshd_config
 # change Port to whatever you want   
 ```    
 
-9. Copy ssh keys to enable no password ssh   
+9. Copy ssh keys to enable no password ssh (from external machine)      
 ```bash   
 ssh-copy-id -i ~/.ssh/id_rsa.pub will@68.174.68.101 -p 9450
 ```    
@@ -62,5 +62,11 @@ sudo vim /etc/ssh/sshd_config
 # change these lines
 PasswordAuthentication no
 ChallengeResponseAuthentication no
-```
+```   
 
+11. Add conda and dropbox lines to zshrc    
+```bash    
+echo 'alias dropbox="~/bin/dropbox.py"' >> ~/.zshrc
+echo '# added by Miniconda3 installer' >> ~/.zshrc
+echo 'export PATH="/home/will/miniconda3/bin:$PATH"'  >> ~/.zshrc
+```
