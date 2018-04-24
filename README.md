@@ -1,4 +1,10 @@
-# System setup
+# System setup    
+
+0. Update ubuntu    
+```bash    
+RUN apt-get update && apt-get install -y python-pip python-dev curl git screen   
+```
+
 1. Setup and use oh-my-zsh
 ```bash    
 bash zsh_install.sh
