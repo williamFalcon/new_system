@@ -1,5 +1,3 @@
-let $PATH = '/usr/bin/python:'.$PATH
-
 :imap jj <Esc>
 set mouse=a
 set noswapfile
@@ -15,19 +13,10 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'cjrh/vim-conda'
-Plugin 'scrooloose/syntastic'
-Plugin 'nvie/vim-flake8'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'jnurmine/Zenburn'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plugin 'mattn/emmet-vim'
+Plugin 'nvie/vim-flake8'
+
 set clipboard=unnamed
 
 set nu
@@ -87,9 +76,6 @@ let python_highlight_all=1
 syntax on
 
 set background=dark
-colorscheme solarized
-
-call togglebg#map("<Shift-F5>")
 
 " hide pyc
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
